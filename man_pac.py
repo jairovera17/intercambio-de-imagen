@@ -2,8 +2,6 @@ import sys
 import numpy as np
 import cv2
 
-
-print(str(sys.argv))
 if(len(sys.argv)!=3):
     print ('INPUT REQUIRED: <FACE-CASCADE CLASSIFIER> <IMAGE>')
     exit()
