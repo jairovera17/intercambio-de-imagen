@@ -3,4 +3,4 @@ Remplaza por otra imagen a todas las ROI de cada frame obtenidas con Cascade Cla
 
 Como usar:
 
->> python man_pac.py <Dir Cacade Classifier> <Imagen>
+>> python man_pac.py [Dir Cacade Classifier] [Imagen]
