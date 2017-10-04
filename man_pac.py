@@ -19,7 +19,7 @@ while (True):
         roi_color = img[y:y+h, x:x+w]
         img[y:y+h, x:x+w] = temp_pac
        
-    cv2.imshow('jairo-vera',img)
+    cv2.imshow('capturadora',img)
     if cv2.waitKey(1) & 0xFF ==ord('q'):
         break
 
